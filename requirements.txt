@@ -5,3 +5,4 @@ openai
 scikit-learn
 python-dotenv
 altair<5
+puremagic
