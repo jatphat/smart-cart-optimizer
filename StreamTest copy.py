@@ -541,7 +541,8 @@ def main():
 
     # Query input
     
-    query = st.chat_input("Type your question here...", key="query_input")
+    #query = st.chat_input("Type your question here...", key="query_input")
+    query = st.chat_input("Type your question here...")
 
    
     if query:
@@ -566,4 +567,5 @@ def main():
             st.rerun()
 
 if __name__ == "__main__":
+
     main()
